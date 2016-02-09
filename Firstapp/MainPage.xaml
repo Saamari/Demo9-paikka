@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Firstapp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Firstapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="infoButton" Content="Click Me" HorizontalAlignment="Left" Margin="555,50,0,0" VerticalAlignment="Top" Background="#33FF0B0B" BorderBrush="#FF113AF3" Width="200" Height="200" Click="infoButton_Click"/>
+        <TextBlock x:Name="infoTextBlock" HorizontalAlignment="Left" Margin="555,357,0,0" TextWrapping="Wrap" Text="Info:" VerticalAlignment="Top"/>
+        <Button x:Name = "secondButton" Click="secondButton_Click" Margin="486,152,0,556"/>
+
+
+    </Grid>
+</Page>
